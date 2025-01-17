@@ -32,6 +32,17 @@ header {
   border-radius: 6px;
   color: white;
 }
+
+.weather-app-city {
+  margin: 0;
+  font-size: 38px;
+  line-height: 48px;
+}
+
+main {
+  padding: 30px 0;
+}
+
 a {
   color: #3ab1c8;
 }
@@ -45,4 +56,23 @@ footer {
   text-align: center;
   font-size: 14px;
   color: rgba(0, 0, 0, 0.6);
+}
+
+.weather-app-data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.weather-app-temperature-container {
+  display: flex;
+}
+
+.weather-app-temperature {
+  font-size: 88px;
+  line-height: 88px;
+  font-weight: bold;
+}
+.weatehr-app-unit {
+  margin-top: 6px;
+  font-size: 28px;
 }
