@@ -11,6 +11,11 @@ body {
   padding: 30px;
 }
 
+.weather-app-icon {
+  width: 88px;
+  height: 88px;
+}
+
 header {
   border-bottom: 1px solid #f9f7fe;
   padding: 0 0 30px 0;
