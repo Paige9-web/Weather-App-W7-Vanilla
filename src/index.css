@@ -11,6 +11,10 @@ body {
   padding: 30px;
 }
 
+header {
+  border-bottom: 1px solid #f9f7fe;
+  padding: 0 0 30px 0;
+}
 .search-form-input {
   background-color: #f9f7fe;
   border: none;
@@ -20,5 +24,25 @@ body {
 }
 
 .search-form-button {
-  background-color: rgba(249, 247, 254);
+  background: #3ab1c8;
+  padding: 15px 30px;
+  border: none;
+  font-size: 16px;
+  margin-left: 5px;
+  border-radius: 6px;
+  color: white;
+}
+a {
+  color: #3ab1c8;
+}
+a:hover {
+  color: #2772db;
+}
+
+footer {
+  border-top: 1px solid #f9f7fe;
+  padding: 30px 0 0 0;
+  text-align: center;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
 }
