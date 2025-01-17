@@ -12,9 +12,13 @@ body {
 }
 
 .search-form-input {
-  background-color: aliceblue;
+  background-color: #f9f7fe;
   border: none;
   border-radius: 6px;
   width: 80%;
   padding: 15px 20px;
+}
+
+.search-form-button {
+  background-color: rgba(249, 247, 254);
 }
